@@ -1,0 +1,22 @@
+{
+  "name": "ueb/push",
+  "description": "Envio e controle de push notification",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Edinei J. Bauer",
+      "email": "edineibauer@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "minishlink/web-push": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Push": "public/src/"
+    }
+  }
+}
