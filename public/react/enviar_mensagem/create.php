@@ -112,7 +112,7 @@ if (!empty($mensagem['enviar_para_relatorios'])) {
                                 /**
                                  * Para cada usuário, envia a mensagem
                                  */
-                                $note = new \Dashboard\Notification();
+                                $note = new \Push\Notification();
                                 $note->setTitulo($mensagem['assunto']);
                                 $note->setDescricao($mensagem['descricao']);
                                 $note->setImagem($mensagem['imagem']);
